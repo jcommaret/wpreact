@@ -1,0 +1,59 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers WordPress core
+/wp-admin/
+/wp-includes/
+/wp-content/plugins/
+/wp-content/upgrade/
+/wp-content/uploads/
+/wp-content/backup-db/
+/wp-content/cache/
+/wp-content/backups/
+
+# Fichiers de configuration WordPress
+wp-config.php
+wp-config-sample.php
+
+# Fichiers de log
+*.log
+error_log
+access_log
+
+# Fichiers de base de données
+*.sql
+*.sqlite
+
+# Fichiers d'environnement
+.env
+.env.*
+!.env.example
+
+# Dossiers et fichiers spécifiques aux éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dossiers de dépendances
+/node_modules/
+/vendor/
+
+# Fichiers de build
+/build/
+/dist/
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Fichiers de configuration locaux
+wp-cli.local.yml
+phpcs.xml
+phpunit.xml
+
